@@ -4,6 +4,8 @@ metadata:
   name: yopass
 spec:
   replicas: 1
+  selector:
+    app: yopass
   template:
     metadata:
       labels:
